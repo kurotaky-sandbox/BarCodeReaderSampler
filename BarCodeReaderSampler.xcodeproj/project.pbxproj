@@ -14,6 +14,7 @@
 		216703D81DCF8E9800BD2B52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216703D61DCF8E9800BD2B52 /* LaunchScreen.storyboard */; };
 		216703E31DCF8E9800BD2B52 /* BarCodeReaderSamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216703E21DCF8E9800BD2B52 /* BarCodeReaderSamplerTests.swift */; };
 		216703EE1DCF8E9800BD2B52 /* BarCodeReaderSamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216703ED1DCF8E9800BD2B52 /* BarCodeReaderSamplerUITests.swift */; };
+		216703FD1DCF8F5F00BD2B52 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216703FC1DCF8F5F00BD2B52 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		216703E91DCF8E9800BD2B52 /* BarCodeReaderSamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarCodeReaderSamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		216703ED1DCF8E9800BD2B52 /* BarCodeReaderSamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeReaderSamplerUITests.swift; sourceTree = "<group>"; };
 		216703EF1DCF8E9800BD2B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216703FC1DCF8F5F00BD2B52 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216703FD1DCF8F5F00BD2B52 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				216703E11DCF8E9800BD2B52 /* BarCodeReaderSamplerTests */,
 				216703EC1DCF8E9800BD2B52 /* BarCodeReaderSamplerUITests */,
 				216703CB1DCF8E9800BD2B52 /* Products */,
+				216703FB1DCF8F5E00BD2B52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				216703EF1DCF8E9800BD2B52 /* Info.plist */,
 			);
 			path = BarCodeReaderSamplerUITests;
+			sourceTree = "<group>";
+		};
+		216703FB1DCF8F5E00BD2B52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216703FC1DCF8F5F00BD2B52 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +205,7 @@
 				TargetAttributes = {
 					216703C91DCF8E9800BD2B52 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = R49F2456V7;
 						ProvisioningStyle = Automatic;
 					};
 					216703DD1DCF8E9800BD2B52 = {
@@ -412,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R49F2456V7;
 				INFOPLIST_FILE = BarCodeReaderSampler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.mo-fu.BarCodeReaderSampler";
@@ -424,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R49F2456V7;
 				INFOPLIST_FILE = BarCodeReaderSampler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.mo-fu.BarCodeReaderSampler";
